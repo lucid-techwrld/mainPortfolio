@@ -3,7 +3,7 @@ import mail from '../assets/icons/mail.png'
 import phone from '../assets/icons/phone.png'
 import whatsapp from '../assets/icons/whatsapp.png'
 import location from '../assets/icons/location.png'
-import cv from '../assets/doc/davisayomide cv.pdf'
+import cv from '../assets/doc/davisayomidecv.pdf'
 
 
 
