@@ -30,7 +30,7 @@ const projectInfo = [
   {
     name: 'AffyMart',
     description: 'Created a landing page to promote a project, AffyMart, an e-commerce website with a user-friendly UI.',
-    link: 'https://affymart.onrender.com/landingPage.html',
+    link: 'https://affymart.onrender.com',
     languages: ['JavaScript', 'HTML', 'React JS', 'CSS']
   }
 ];
