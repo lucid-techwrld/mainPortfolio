@@ -7,7 +7,7 @@ import About from './components/about'
 import Contact from './components/contact'
 import Footer from './components/footer'
 import Offer from './components/offer'
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet';
 
 
 
@@ -19,7 +19,6 @@ function App() {
   
   return (
     <div className='bg-gradient-to-br from-slate-900 via-zinc-700 to-black w-screen min-h-screen'>
-      <HelmetProvider>
         <Helmet>
           <title>Davis Ayomide Ariyo | Software Developer</title>
           <meta name="description" content="Passionate MERN stack developer specializing in building full-stack web applications using MongoDB, Express.js, React, and Node.js. Focused on clean code, responsive design, and delivering seamless user experiences" />
@@ -31,7 +30,6 @@ function App() {
           <meta property="og:image" content="/src/assets/favicon.png" />
           <meta property="og:url" content="https://davisayomide.netlify.app" />
         </Helmet>
-      </HelmetProvider>
       
      <Header />
      <HeroSection />
