@@ -16,7 +16,7 @@ const Offer = () => {
         Speciliazed In
       </h2>
       <p className="text-orange-400 text-center">What I offer</p>
-      <div className="w-full h-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-7 p-10">
+      <div className="w-full h-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-5 p-10">
         <OfferCard
           head="React.js"
           icon={<FaReact />}
