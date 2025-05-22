@@ -1,0 +1,73 @@
+const projectInfo = [
+  {
+    name: "Davis Ayomide Portfolio",
+    description:
+      "A fully responsive personal portfolio showcasing my skills, projects, and professional background. Designed with creativity and clean UI/UX to leave a strong impression on potential employers and clients.",
+    link: "https://davisayomide.netlify.app",
+    github: "https://github.com/lucid-techwrld/mainPortfolio#",
+    languages: ["JavaScript", "HTML", "React JS", "Tailwind CSS"],
+  },
+  {
+    name: "Memory Lane",
+    description:
+      "A modern photo journaling web app that allows users to capture, store, and revisit their most cherished memories through an intuitive and user-friendly interface.",
+    link: "https://memorylane-vaq6.onrender.com",
+    github: "",
+    languages: ["JavaScript", "HTML", "React JS", "Tailwind CSS"],
+  },
+  {
+    name: "LucidXPay",
+    description:
+      "A sleek landing page for a Web3 payment platform offering innovative digital card solutions for decentralized finance. Built to highlight product features and attract early adopters.",
+    link: "https://lucidxpay.onrender.com",
+    github: "",
+    languages: ["JavaScript", "HTML", "Tailwind CSS"],
+  },
+  {
+    name: "AffyMart",
+    description:
+      "An eye-catching landing page for AffyMart, an upcoming e-commerce platform. Focused on clean visuals and usability to promote brand identity and attract customers.",
+    link: "https://affymart.onrender.com",
+    github: "",
+    languages: ["JavaScript", "HTML", "React JS", "CSS"],
+  },
+  {
+    name: "SHOPiBAG",
+    description:
+      "A full-stack e-commerce platform for fashion and cosmetics, featuring secure user authentication, a scalable product catalog, and a RESTful API. Built to provide a seamless shopping experience.",
+    link: "https://shopibag-store.onrender.com/",
+    github: "https://github.com/lucid-techwrld/shopibag",
+    languages: ["JavaScript", "Node.js/Express", "React JS", "Tailwind CSS"],
+  },
+  {
+    name: "E-commerce Admin Dashboard - ShopiBag",
+    description:
+      "An admin dashboard for managing products, orders, and users in the ShopiBag store. Includes secure login, responsive UI with Material UI, and CRUD functionality powered by a Node.js backend.",
+    link: "https://shopibag-admin.onrender.com",
+    github: "https://github.com/lucid-techwrld/shopibag_backend",
+    languages: [
+      "JavaScript",
+      "Node.js/Express",
+      "React JS",
+      "Tailwind CSS",
+      "MUI",
+    ],
+  },
+  {
+    name: "Mini StackOverflow",
+    description:
+      "A collaborative full-stack Q&A platform built with another developer using Git and GitHub for version control. Features include user authentication, voting, real-time Q&A interactions, and a well-structured backend API—designed to simulate the core functionality of StackOverflow.",
+    link: "https://ministack-tecd.onrender.com",
+    github: "https://github.com/Warith08158/min-stack",
+    languages: [
+      "JavaScript",
+      "Node.js/Express",
+      "React JS",
+      "Tailwind CSS",
+      "Git",
+      "GitHub",
+    ],
+  },
+];
+
+export default projectInfo;
