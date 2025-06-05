@@ -68,6 +68,23 @@ const projectInfo = [
       "GitHub",
     ],
   },
+
+  {
+    name: "NeuroNosh",
+    description:
+      "Neuronosh uses AI to craft recipes from the ingredients in your kitchen. Stop wasting food — start cooking smarter",
+    link: "https://neuronosh.netlify.app",
+    github: "https://github.com/lucid-techwrld/neuronosh",
+    languages: [
+      "JavaScript",
+      "Node.js/Express",
+      "React JS",
+      "Tailwind CSS",
+      "OpenAI",
+      "Git",
+      "GitHub",
+    ],
+  },
 ];
 
 export default projectInfo;
