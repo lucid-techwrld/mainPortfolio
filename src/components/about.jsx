@@ -7,7 +7,7 @@ const about = () => {
       id="about"
       className="w-full h-54 text-sm md:text-xl lg:text-2xl space-y-5 p-5 italic bg-slate-800 mt-5 text-white grid grid-cols-1 lg:grid-cols-2 md:grid-cols-2"
     >
-      <div>
+      <div className="w-full h-64 md:h-96 lg:h-96">
         <img src={image} alt="myimage" className="w-full h-full" />
       </div>
       <div>

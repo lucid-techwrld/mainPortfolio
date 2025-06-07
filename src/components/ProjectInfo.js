@@ -73,7 +73,7 @@ const projectInfo = [
     name: "NeuroNosh",
     description:
       "Neuronosh uses AI to craft recipes from the ingredients in your kitchen. Stop wasting food — start cooking smarter",
-    link: "https://neuronosh.netlify.app",
+    link: "https://neuronosh-ai.onrender.com",
     github: "https://github.com/lucid-techwrld/neuronosh",
     languages: [
       "JavaScript",
