@@ -8,6 +8,51 @@ const projectInfo = [
     languages: ["JavaScript", "HTML", "React JS", "Tailwind CSS"],
   },
   {
+    name: "NeuroNosh",
+    description:
+      "Neuronosh uses AI to craft recipes from the ingredients in your kitchen. Stop wasting food — start cooking smarter",
+    link: "https://neuronosh-ai.onrender.com",
+    github: "https://github.com/lucid-techwrld/neuronosh",
+    languages: [
+      "JavaScript",
+      "Node.js/Express",
+      "React JS",
+      "Tailwind CSS",
+      "OpenAI",
+      "Git",
+      "GitHub",
+    ],
+  },
+   {
+    name: "Mini StackOverflow",
+    description:
+      "A collaborative full-stack Q&A platform built with another developer using Git and GitHub for version control. Features include user authentication, voting, real-time Q&A interactions, and a well-structured backend API—designed to simulate the core functionality of StackOverflow.",
+    link: "https://ministack-tecd.onrender.com",
+    github: "https://github.com/Warith08158/min-stack",
+    languages: [
+      "JavaScript",
+      "Node.js/Express",
+      "React JS",
+      "Tailwind CSS",
+      "Git",
+      "GitHub",
+    ],
+  },
+  {
+    name: "FigiloTech",
+    description:"Built a company website for a small scale Computer/Cyber Cafe company",
+    link: "https://figilotech.vercel.app",
+    github: "https://github.com/lucid-techwrld/figilotech",
+    languages: [
+      "JavaScript",
+      "React JS",
+      "Tailwind CSS",
+      "TypeScript",
+      "Git",
+      "GitHub",
+    ],
+  },
+  {
     name: "Memory Lane",
     description:
       "A modern photo journaling web app that allows users to capture, store, and revisit their most cherished memories through an intuitive and user-friendly interface.",
@@ -52,39 +97,7 @@ const projectInfo = [
       "Tailwind CSS",
       "MUI",
     ],
-  },
-  {
-    name: "Mini StackOverflow",
-    description:
-      "A collaborative full-stack Q&A platform built with another developer using Git and GitHub for version control. Features include user authentication, voting, real-time Q&A interactions, and a well-structured backend API—designed to simulate the core functionality of StackOverflow.",
-    link: "https://ministack-tecd.onrender.com",
-    github: "https://github.com/Warith08158/min-stack",
-    languages: [
-      "JavaScript",
-      "Node.js/Express",
-      "React JS",
-      "Tailwind CSS",
-      "Git",
-      "GitHub",
-    ],
-  },
-
-  {
-    name: "NeuroNosh",
-    description:
-      "Neuronosh uses AI to craft recipes from the ingredients in your kitchen. Stop wasting food — start cooking smarter",
-    link: "https://neuronosh-ai.onrender.com",
-    github: "https://github.com/lucid-techwrld/neuronosh",
-    languages: [
-      "JavaScript",
-      "Node.js/Express",
-      "React JS",
-      "Tailwind CSS",
-      "OpenAI",
-      "Git",
-      "GitHub",
-    ],
-  },
+  }
 ];
 
 export default projectInfo;
