@@ -2,9 +2,9 @@ import React from 'react';
 import useScrollAnimation from '../config/useScrollAnimation';
 
 const skillArray = [
-  'Html', 'Css', 'JavaScript', 'React Js', 'Next.js',
-  'Tailwind CSS', 'Node.js/Express', 'MongoDB',
-  'Photoshop', 'Figma', 'CorelDraw', 'Git', 'GitHub'
+  'Html', 'Css', 'JavaScript', 'React Js', 'TypeScript',
+  'Tailwind CSS', 'Node.js/Express', 'MongoDB', 'Postgresql','Supabase',
+ 'Git', 'GitHub'
 ];
 
 const Skills = () => {
