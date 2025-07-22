@@ -53,6 +53,7 @@ const projectInfo = [
     languages: [
       "JavaScript",
       "Node.js/Express",
+      "MongoDB",
       "React JS",
       "Tailwind CSS",
       "Git",
@@ -103,7 +104,7 @@ const projectInfo = [
       "A full-stack e-commerce platform for fashion and cosmetics, featuring secure user authentication, a scalable product catalog, and a RESTful API. Built to provide a seamless shopping experience.",
     link: "https://shopibag-store.onrender.com/",
     github: "https://github.com/lucid-techwrld/shopibag",
-    languages: ["JavaScript", "Node.js/Express", "React JS", "Tailwind CSS"],
+    languages: ["JavaScript", "MongoDB", "Node.js/Express", "React JS", "Tailwind CSS"],
   },
   {
     name: "E-commerce Admin Dashboard - ShopiBag",
