@@ -28,11 +28,13 @@ const projectInfo = [
     name: "Zello Home",
     description:
       "Zello Home is an home rental web application where users can rent or lease out houses, Chat and get RealTime Update and Notification of new property close to you",
-    link: "Developmen",
+    link: "https://zello-home.onrender.com",
     github: "https://github.com/lucid-techwrld/zello",
     languages: [
       "TypeScript",
       "PostgreSQL",
+      "Zustand",
+      "Zod",
       "Knex.js",
       "Socket.IO",
       "Cloudinary",
