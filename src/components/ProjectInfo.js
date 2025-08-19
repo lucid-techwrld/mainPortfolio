@@ -46,6 +46,23 @@ const projectInfo = [
       "GitHub",
     ],
   },
+  {
+    name: "Myxellia Dashboard",
+    description:
+      "Myxellia is an ever-evolving cloud based infrastructure of interconnected apps and services, built to make real estate work better for all.",
+    link: "https://myxellia-chi.vercel.app/",
+    github: "https://github.com/lucid-techwrld/myxellia",
+    languages: [
+      "JavaScript",
+      "TypeScript",
+      "React JS",
+      "Tailwind CSS",
+      "ShadCN",
+      "ReCharts",
+      "Git",
+      "GitHub",
+    ],
+  },
    {
     name: "Mini StackOverflow",
     description:
