@@ -17,8 +17,8 @@ const about = () => {
         </h1>
         <p>I'm Davis Ayomide Ariyo, with 4+ years of experrience. </p>
         <p>
-          Passionate MERN stack developer specializing in building full-stack
-          web applications using MongoDB, Express.js, React, and Node.js.
+          Passionate FullStack developer specializing in building full-stack
+          web applications using MongoDB, Postgresql, Typescript, Express.js, React, and Node.js.
           Focused on clean code, responsive design, and delivering seamless user
           experiences
         </p>
