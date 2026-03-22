@@ -47,6 +47,28 @@ const projectInfo = [
     ],
   },
   {
+    name: "Pixora Cloud",
+    description:
+      "Pixora is a developer-first media cloud that simplifies image and video handling for modern applications. We provide secure storage, automatic optimization, and fast global delivery — without the complexity and surprise costs of traditional media platforms.",
+    link: "https://pixora-web.pxxl.click",
+    github: "",
+    languages: [
+      "TypeScript",
+      "Go",
+      "PostgreSQL",
+      "Zustand",
+      "Zod",
+      "TypeORM",
+      "AWS",
+      "Redis",
+      "Node.js/Express",
+      "React JS",
+      "Tailwind CSS",
+      "Git",
+      "GitHub",
+    ],
+  },
+  {
     name: "Myxellia Dashboard",
     description:
       "Myxellia is an ever-evolving cloud based infrastructure of interconnected apps and services, built to make real estate work better for all.",
@@ -94,30 +116,6 @@ const projectInfo = [
     ],
   },
   {
-    name: "Memory Lane",
-    description:
-      "A modern photo journaling web app that allows users to capture, store, and revisit their most cherished memories through an intuitive and user-friendly interface.",
-    link: "https://memorylane-vaq6.onrender.com",
-    github: "",
-    languages: ["JavaScript", "HTML", "React JS", "Tailwind CSS"],
-  },
-  {
-    name: "LucidXPay",
-    description:
-      "A sleek landing page for a Web3 payment platform offering innovative digital card solutions for decentralized finance. Built to highlight product features and attract early adopters.",
-    link: "https://lucidxpay.onrender.com",
-    github: "",
-    languages: ["JavaScript", "HTML", "Tailwind CSS"],
-  },
-  {
-    name: "AffyMart",
-    description:
-      "An eye-catching landing page for AffyMart, an upcoming e-commerce platform. Focused on clean visuals and usability to promote brand identity and attract customers.",
-    link: "https://affymart.onrender.com",
-    github: "",
-    languages: ["JavaScript", "HTML", "React JS", "CSS"],
-  },
-  {
     name: "SHOPiBAG",
     description:
       "A full-stack e-commerce platform for fashion and cosmetics, featuring secure user authentication, a scalable product catalog, and a RESTful API. Built to provide a seamless shopping experience.",
@@ -129,7 +127,7 @@ const projectInfo = [
     name: "E-commerce Admin Dashboard - ShopiBag",
     description:
       "An admin dashboard for managing products, orders, and users in the ShopiBag store. Includes secure login, responsive UI with Material UI, and CRUD functionality powered by a Node.js backend.",
-    link: "https://shopibag-admin.onrender.com",
+    link: "",
     github: "https://github.com/lucid-techwrld/shopibag_backend",
     languages: [
       "JavaScript",

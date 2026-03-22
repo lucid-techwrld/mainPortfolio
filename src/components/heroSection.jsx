@@ -20,11 +20,11 @@ function heroSection() {
               </span>
             </h2>
             <p className="text-white">
-              Web Developer | Software Engineer | Mobile App Developer <br />
-              Graphic Designer
+              Web Developer | Software Engineer <br />
+              LEARNING.BUILDING.GROWING
             </p>
             <p className="bg-orange-400 rounded-full py-4 px-5 lg:text-4xl md:text-3xl text-center text-white w-full h-1/2 text-xl">
-              3.9+ Years Experience
+              4+ Years Experience
             </p>
             <a
               href={cv}
@@ -54,7 +54,7 @@ function heroSection() {
             <TbFileStar className="text-xl md:text-2xl lg:text-2xl" />
           </div>
           <div>
-            <p className="font-bold">8+ Projects</p>
+            <p className="font-bold">17+ Projects</p>
             <p className="text-orange-400">Completed</p>
           </div>
         </div>

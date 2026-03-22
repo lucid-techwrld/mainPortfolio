@@ -15,9 +15,9 @@ const contact = () => {
           <h2 className='text-xl text-center font-sans italic text-white'>I can help you design, improve <br />or build the product  experience <br /> for your new or existing products.<br />Feel free to get in touch with me</h2>
             <p className='text-2xl'>Do You Have Any Idea?</p>
             <div className='text-xl flex flex-col justify-center items-center gap-7 text-white'>
-              <a href="mailto: lucidtechwrld9@gmail.com"> lucidtechwrld9@gmail.com</a>
+              <a href="mailto: davisayomide9999@gmail.com"> davisayomide999@gmail.com</a>
               <IoMail/>
-              <a href="tel:+2348082926609">08082926609</a>
+              <a href="tel:+2349116170656">09116170656</a>
               <FaPhone/>
               <a href="http://wa.me/+2347085948512" target="_blank" rel="noopener noreferrer">07085948512</a>
               <FaWhatsapp/>
