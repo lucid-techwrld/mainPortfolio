@@ -80,34 +80,38 @@ export default function Hero({ profile, isMobile }) {
         >
           {profile.name || profile.login}
         </motion.h1>
-        <motion.div custom={2} variants={fadeIn} initial="hidden" animate="visible" style={{ flexShrink: 0, position: "relative" }}>
-          {/* Orbit ring around avatar */}
-          <div style={{
-            position: "absolute", inset: -6,
-            borderRadius: "50%",
-            border: "1px solid rgba(99,179,237,0.2)",
-            animation: "spin 12s linear infinite",
-          }} />
-          <style>{`@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }`}</style>
-          <img
-            src={profile.avatar_url}
-            alt={profile.login}
-            style={{
-              width: isMobile ? 68 : 96,
-              height: isMobile ? 68 : 96,
-              borderRadius: "50%",
-              border: "2px solid var(--border)",
-              objectFit: "cover",
-              display: "block",
-            }}
-          />
-          {/* Glow behind avatar */}
-          <div style={{
-            position: "absolute", inset: -10, borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(99,179,237,0.12), transparent 70%)",
-            zIndex: -1,
-          }} />
-        </motion.div>
+        <motion.div custom={2} variants={fadeIn} initial="hidden" animate="visible" 
+  style={{ flexShrink: 0, position: "relative", width: isMobile ? 68 : 280, height: isMobile ? 68 : 280 }}>
+  
+  {/* Orbit ring around avatar */}
+{/*  <div style={{
+    position: "relative", inset: -6,
+    borderRadius: "50%",
+    border: "1px solid rgba(99,179,237,0.2)",
+    animation: "spin 12s linear infinite",
+  }} /> */}
+  {/*<style>{`@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }`}</style> */}
+  
+  <img
+    src={profile.avatar_url}
+    alt={profile.login}
+    style={{
+      width: "100%",
+      height: "100%",
+      borderRadius: "50%",
+      border: "2px solid var(--border)",
+      objectFit: "cover",
+      display: "block",
+    }}
+  />
+
+  {/* Glow behind avatar 
+  <div style={{
+    position: "absolute", inset: -10, borderRadius: "50%",
+    background: "radial-gradient(circle, rgba(99,179,237,0.12), transparent 70%)",
+    zIndex: -1,
+  }} /> */}
+</motion.div>
       </div>
 
       {/* Bio + meta + CTAs */}

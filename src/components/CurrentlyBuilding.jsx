@@ -82,13 +82,13 @@ export default function CurrentlyBuilding({ isMobile }) {
                   letterSpacing: "-0.04em", lineHeight: 1,
                   color: "var(--text-primary)", marginBottom: 6,
                 }}>
-                  Pixora
+                  PixoraCloud
                 </h3>
                 <p style={{
                   fontFamily: "JetBrains Mono, monospace", fontSize: 11,
                   color: "var(--accent)", letterSpacing: "0.08em",
                 }}>
-                  pixora-web.pxxl.click
+                  pixoracloud.pxxl.click
                 </p>
               </div>
 
@@ -113,7 +113,7 @@ export default function CurrentlyBuilding({ isMobile }) {
               fontSize: isMobile ? 14 : 16, color: "var(--text-secondary)",
               lineHeight: 1.8, maxWidth: 620, marginBottom: 32,
             }}>
-              Pixora is a cloud media delivery platform built specifically for African developers —
+              PixoraCloud is a cloud media delivery platform built specifically for African developers —
               offering fast, affordable, and reliable media infrastructure without the dollar-denominated
               pricing of global CDNs. Upload images and videos, transform them on the fly, and serve them
               through an optimised delivery network close to where African users actually are.

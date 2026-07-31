@@ -1,4 +1,4 @@
-const PINNED_REPOS = ["zello", "neuronosh", "lawsabi", "shopibag", "mainportfolio", "myxellia"];
+const PINNED_REPOS = ["zello", "neuronosh", "lawsabi", "shopibag", "telecomos", "myxellia"];
 
 export async function getGitHubData(username) {
   const headers = { Accept: "application/vnd.github+json" };
