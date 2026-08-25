@@ -69,7 +69,8 @@ export default function App() {
   }, []);
 
   if (loading) return <SkeletonLoader isMobile={isMobile} />;
-  if (error)   return <ErrorState message={error} />;
+  // if (error)   return <ErrorState message={error} />;
+  if (error) console.log(error)
 
   const { profile, repos } = userData;
   const languages    = getUniqueLanguages(repos);
