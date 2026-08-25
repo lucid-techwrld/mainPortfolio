@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { IconArrow, IconMail, IconMap, IconBriefcase, IconGithub, IconCode } from "./Icons";
+import image from "../assets/davisayomide.jpeg"
 
 const fadeUp = {
   hidden: { opacity: 0, y: 24 },
@@ -93,7 +94,7 @@ export default function Hero({ profile, isMobile }) {
   {/*<style>{`@keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }`}</style> */}
   
   <img
-    src={profile.avatar_url}
+    src={image}
     alt={profile.login}
     style={{
       width: "100%",
