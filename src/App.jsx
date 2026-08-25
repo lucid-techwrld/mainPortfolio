@@ -1,10 +1,7 @@
 import { useState, useEffect } from "react";
-import { getGitHubData } from "./services/github";
-import { GITHUB_USERNAME } from "./config";
+import githubData from "./data/githubData.json"; // <-- Import directly from build cache
 import { useIsMobile } from "./hooks/useIsMobile";
 
-import SkeletonLoader from "./components/SkeletonLoader";
-import ErrorState    from "./components/ErrorState";
 import Navbar        from "./components/Navbar";
 import Hero          from "./components/Hero";
 import Marquee       from "./components/Marquee";
@@ -36,9 +33,6 @@ function getLanguageStats(repos) {
 }
 
 export default function App() {
-  const [userData,     setUserData]     = useState(null);
-  const [loading,      setLoading]      = useState(true);
-  const [error,        setError]        = useState(null);
   const [activeFilter, setActiveFilter] = useState("All");
   const [scrolled,     setScrolled]     = useState(false);
   const isMobile = useIsMobile();
@@ -50,29 +44,8 @@ export default function App() {
     return () => window.removeEventListener("scroll", fn);
   }, []);
 
-  /* Fetch GitHub data */
-  useEffect(() => {
-    (async () => {
-      try {
-        if (GITHUB_USERNAME && GITHUB_USERNAME !== "placeholder") {
-          setUserData(await getGitHubData(GITHUB_USERNAME));
-        } else {
-          setError("GitHub username not configured — check src/config.js");
-        }
-      } catch (e) {
-        setError("Could not load GitHub data. Check your username in src/config.js");
-        console.error(e);
-      } finally {
-        setLoading(false);
-      }
-    })();
-  }, []);
-
-  if (loading) return <SkeletonLoader isMobile={isMobile} />;
-  // if (error)   return <ErrorState message={error} />;
-  if (error) console.log(error)
-
-  const { profile, repos } = userData;
+  // Data is now ready instantly at render time!
+  const { profile, repos } = githubData;
   const languages    = getUniqueLanguages(repos);
   const totalStars   = getTotalStars(repos);
   const langStats    = getLanguageStats(repos);
