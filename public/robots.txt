@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://davisayomide.netlify.app/sitemap.xml
+Sitemap: https://davisayomide.pxxlspace.cv/sitemap.xml
