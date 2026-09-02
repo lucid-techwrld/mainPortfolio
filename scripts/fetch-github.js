@@ -13,7 +13,7 @@ const TARGET_REPOS = [
   { owner: "lucid-techwrld", repo: "neuronosh" },
   { owner: "lucid-techwrld", repo: "lawsabi" },
   { owner: "lucid-techwrld", repo: "shopibag" },
-  { owner: "TelecomOS",      repo: "telecomos" }, // Private repo inside org
+  { owner: "TelecomOS",      repo: "subcell.vtu" }, // Private repo inside org
   { owner: "lucid-techwrld", repo: "myxellia" },
 ];
 
