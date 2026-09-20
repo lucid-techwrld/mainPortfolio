@@ -6,7 +6,6 @@ import { fileURLToPath } from 'url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const GITHUB_USERNAME = "lucid-techwrld";
 
 const TARGET_REPOS = [
   { owner: "lucid-techwrld", repo: "zello" },
@@ -24,6 +23,7 @@ async function fetchGitHubData() {
   
   // Grab token from environment variables (Netlify or local .env)
   const token = process.env.GH_PAT || process.env.GITHUB_TOKEN;
+  const GITHUB_USERNAME = process.env.NODE_ENV !== "production" ? "lucid-techwrld" : process.env.GITHUB_USERNAME
   
   const headers = { 
     Accept: "application/vnd.github+json",
